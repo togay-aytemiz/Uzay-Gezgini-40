@@ -4,7 +4,7 @@ import PlayArea from './components/PlayArea'
 import ScoreBoard from './components/ScoreBoard'
 import './styles.css'
 export default function App() {
-  const STARTING_TIME = 10
+  const STARTING_TIME = 30
   const STARTING_SCORE = 0
   const [timerRunning, setTimerRunning] = useState(false)
   const [timeLeft, setTimeLeft] = useState(STARTING_TIME)
